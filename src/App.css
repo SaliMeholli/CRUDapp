@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.title {
+  font-family: 'Mulish', sans-serif;
+  color: blue;
+  font-size: 50px;
+}
+
+.boxes-container {
+ display: flex;
+ justify-content: center;
+ font-family: 'Raleway', sans-serif;
+}
+
+.boxes {
+  background-color: #77c5ed;
+  width: 250px;
+  margin: 50px 30px;
+}
+.boxes-container button {
+  padding: 15px 20px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  border: 1px solid rgb(153, 148, 148);
+}
+
+.deletebtn {
+  background-color: rgb(255, 123, 123);
+}
+
+.deletebtn:hover {
+  background-color: rgb(255, 90, 90);
+  transition: all 0.2s;
+}
+
+.increasebtn:hover {
+    background-color: rgb(192, 192, 192);
+    transition: all 0.2s;
+}
+
+
+@media (max-width: 744px) {
+  .boxes-container {
+    display: block;
+   }
+}
+
+
+.nameinput, .ageinput {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 0;
+  outline: none;
+  border: 1px solid grey;
+  font-family: 'Roboto', sans-serif;
+}
+.createuserbtn {
+  padding: 11px 20px;
+  background-color: rgb(255, 194, 194);
+  border: 1px solid grey;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
